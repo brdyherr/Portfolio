@@ -3,16 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Braudy Herrera</title>
+    <title>Braudy Herrera's Portfolio</title>
     <link rel="stylesheet" href="css/bh_styles.css" />
   </head>
 
+  <!-- THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them -->
   <body>
     <!-- Header Section -->
-    <h1>
-      <a href="/">Braudy Herrera</a>
-    </h1>
-    <nav class="header">
+    <div class="topnav">
+      <a class="active" href="#home">Braudy Herrera</a>
+      <a href="#news">About Me</a>
+      <a href="#contact">Work</a>
+      <a href="#about">Contact Me</a>
+    </div>
+
+    <nav
+      class="header"
+      style="
+        float: right;
+        border-radius: 1%;
+        padding-inline-start: 1%;
+        margin-inline-start: 1px;
+      "
+    >
       <ul class="header-right">
         <!-- Navigation Strip -->
         <li>
@@ -35,7 +48,7 @@
 
     <section class="main">
       <!-- Short Summary -->
-      <section>
+      <section class="main_about">
         <a id="about-me"> </a>
         <h2>About Me</h2>
         <p>
@@ -55,7 +68,8 @@
       <br />
 
       <!-- Pending Projects! -->
-      <section class="work">
+      <section class="main_work">
+        <a id="work"> </a>
         <h2>Work</h2>
         <div>box</div>
         <div>box</div>
@@ -68,17 +82,20 @@
     <br />
 
     <footer>
-      <h2>Contact Me</h2>
       <!-- Cell # And Links! -->
-      <ul>
-        Cell#
-      </ul>
-      <ul>
-        email
-      </ul>
-      <a> Link here </a>
-      <a> Link here </a>
-      <a> Link here </a>
+      <section class="contact_me">
+        <a id="contact-me"></a>
+        <h2>Contact Me</h2>
+        <ul>
+          Cell#
+        </ul>
+        <ul>
+          email
+        </ul>
+        <a href="" class="link"></a>
+        <a href="" class="link"></a>
+        <a href="" class="link"></a>
+      </section>
     </footer>
   </body>
 </html>
