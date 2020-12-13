@@ -47,8 +47,24 @@
   right: 16px;
 }
 
+.headshot {
+  position: absolute;
+  bottom: 8px;
+  left: -18%;
+}
+
 /* Sections title styling */
 h2 {
   color: rgb(28, 104, 148);
   font-style: italic;
 }
+
+/* Add grid layout to main section */
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+
