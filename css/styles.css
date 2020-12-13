@@ -29,3 +29,18 @@
   background-color: #4caf50;
   color: white;
 }
+
+/* Add top banner styling */
+.topBanner {
+  position: relative;
+  text-align: center;
+}
+
+.contentTitle {
+  font-size: 40pt;
+  font-style: italic;
+  color: rgb(28, 104, 148);
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
