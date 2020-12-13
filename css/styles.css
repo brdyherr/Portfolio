@@ -67,4 +67,21 @@ h2 {
   grid-auto-rows: minmax(100px, auto);
 }
 
+.main_about {
+  grid-column: 1;
+  grid-row: 1;
+}
+.main_summary {
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
 
+.main_work {
+  grid-column: 1;
+  grid-row: 2 / 3;
+}
+
+.main_contact {
+  grid-column: 1;
+  grid-row: 4;
+}
