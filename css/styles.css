@@ -65,11 +65,15 @@ h2 {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
+  padding: 20px;
 }
 
 .main_about {
   grid-column: 1;
   grid-row: 1;
+  font-size: 30pt;
+  border-right: solid;
+  color: #333;
 }
 .main_summary {
   grid-column: 2 / 4;
@@ -79,9 +83,31 @@ h2 {
 .main_work {
   grid-column: 1;
   grid-row: 2 / 3;
+  font-size: 30pt;
+  border-right: solid;
+  color: #333;
+}
+.main_work_projects {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(4, minmax(100px, auto));
 }
 
 .main_contact {
   grid-column: 1;
   grid-row: 4;
+  font-size: 30pt;
+  border-right: solid;
+  color: #333;
+}
+.contact-details {
+  grid-column: 2 / 4;
+  grid-row: 4;
+  padding-top: 100px;
+}
+.contact1 {
+  padding: 5px;
+  text-decoration: underline;
 }
