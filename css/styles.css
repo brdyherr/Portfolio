@@ -114,7 +114,7 @@ h2 {
   grid-row-start: 1;
   grid-row-end: 1;
 }
-.password {
+.titheLight {
   border: solid;
   color: #333;
   background-image: linear-gradient(grey, skyblue);
